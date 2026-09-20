@@ -1,0 +1,10 @@
+*.tfstate
+*.tfstate.*
+.terraform/
+*.tfvars
+*.tfvars.json
+*.pem
+*.key
+.env
+.env.*
+.DS_Store
