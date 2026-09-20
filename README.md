@@ -34,6 +34,7 @@ AWS states the exam has 65 questions total: 50 scored and 15 unscored. Exam time
 - HANDS_ON_LABS.md — lab catalogue
 - LABS/ — Terraform lab foundations
 - TOOLS/ — validation, evidence and cleanup tooling
+- AWS_ACCOUNT_SAFETY.md — account, credential and cost safety
 - ARCHITECTURE_DIAGRAMS/ — Mermaid reference architectures
 - TROUBLESHOOTING_DRILLS.md — failure exercises
 
