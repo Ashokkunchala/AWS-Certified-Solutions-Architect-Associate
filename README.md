@@ -20,16 +20,54 @@ AWS states the exam has 65 questions total: 50 scored and 15 unscored. Exam time
 
 ## Repository guide
 
-- ROADMAP.md — learning roadmap
-- 30_DAY_PLAN.md — practical schedule
-- EXAM_BLUEPRINT.md — domain/task map
-- AWS_SERVICE_MATRIX.md — service decision matrix
-- ARCHITECTURE_DECISION_GUIDE.md — scenario reasoning
-- HANDS_ON_LABS.md — implementation labs
+### Core learning
+- ROADMAP.md
+- 30_DAY_PLAN.md
+- EXAM_BLUEPRINT.md
+- AWS_SERVICE_MATRIX.md
+- ARCHITECTURE_DECISION_GUIDE.md
+- EXAM_PLAYBOOK.md
+- PROGRESS.md
+
+### Practical engineering
+- DAY_01-30/ — daily execution guides
+- HANDS_ON_LABS.md — lab catalogue
+- LABS/ — Terraform lab foundations
+- TOOLS/ — validation, evidence and cleanup tooling
+- ARCHITECTURE_DIAGRAMS/ — Mermaid reference architectures
 - TROUBLESHOOTING_DRILLS.md — failure exercises
-- CAPSTONE.md — end-to-end architecture project
-- EXAM_PLAYBOOK.md — exam technique
-- PROGRESS.md — tracker
+
+### Exam practice
+- QUESTION_BANK/100_SCENARIOS.md — 100 scenario prompts
+- QUESTION_BANK/100_SCENARIO_ANSWERS.md — answer key
+- MOCK_EXAMS/ — timed mock framework and oral defense
+
+### Architecture engineering
+- CAPSTONE.md — end-to-end architecture
+- ADRS/ — architecture decision records
+- WELL_ARCHITECTED_REVIEW.md — six-pillar review
+- INTEGRATION_WITH_OTHER_REPOS.md — SAA + Terraform + EKS learning path
+
+## Quality checks
+
+Run:
+
+```bash
+bash TOOLS/bootstrap-check.sh
+bash TOOLS/terraform-validate.sh
+```
+
+Pull requests validate Terraform labs and Markdown.
+
+## Learning standard
+
+A topic is complete only when you can:
+1. Explain it without notes.
+2. Compare it with the closest alternatives.
+3. Build a small implementation.
+4. Break one part intentionally.
+5. Diagnose and recover it.
+6. Defend the architecture decision.
 
 ## Official references
 
