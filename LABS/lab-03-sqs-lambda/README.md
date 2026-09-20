@@ -1,7 +1,9 @@
 # Lab 03 — Queue-Based Serverless Processing
 
-Architecture: API/producer → SQS → Lambda worker → DynamoDB.
+Architecture: producer → SQS → Lambda worker → DynamoDB, with an SQS DLQ after repeated failures.
 
-Drills: visibility timeout, retry behavior, DLQ, idempotency and CloudWatch alarms.
+Validate successful messages, forced failures, retries and DLQ delivery.
 
-Evidence: message lifecycle, failed-message handling and recovery.
+Study visibility timeout, at-least-once delivery, idempotency and partial batch failure.
+
+Run terraform destroy after the drill.
