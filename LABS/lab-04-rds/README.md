@@ -1,5 +1,9 @@
 # Lab 04 — RDS Resilience
 
-Use a sandbox only. Create RDS with Multi-AZ when cost permits. Compare Multi-AZ with read replicas and automated backups.
+This lab intentionally defaults to single-AZ to reduce cost. Change multi_az to true in a controlled experiment and compare availability and cost.
 
-Document endpoint behavior, backup retention and recovery expectations.
+Never commit passwords. Supply the password through a local tfvars file or an environment-backed workflow.
+
+Compare Multi-AZ for failover, read replicas for read scaling, automated backups for point-in-time recovery, and Aurora for managed relational workloads.
+
+Destroy the database after testing.
